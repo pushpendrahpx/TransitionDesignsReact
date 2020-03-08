@@ -1,0 +1,44 @@
+.Main-Navbar{
+    font-size:1.25rem;font-weight:300;
+
+    display: flex;
+
+    top:0px;
+    left:0px;
+    right: 0px;
+    height: auto;
+    padding: 5px;
+    background:#212121;
+    color:white;
+    opacity: 1;
+    
+}
+
+.Main-Navbar-Title{
+    font-size: 30px;
+    padding:5px;
+}
+
+.Navbar-content{
+    right: 0;
+}
+.Navbar-Outside-content{
+    padding: 10px;
+    display: flex;
+
+}
+.Navbar-item{
+    padding:5px;
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 30px;
+    user-select: none;
+    transition-duration:0.2s;
+}
+.Navbar-item:hover{
+    color:#22c722;
+}
+.Navbar-item:active{
+    
+    transform: scale(0.95);
+}
