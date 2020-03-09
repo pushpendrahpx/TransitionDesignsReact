@@ -1,0 +1,35 @@
+.Error-Container{
+    top:0px;
+    width:100vw;
+    height: 100vh;
+    left: 0px;
+    background: #0d75fb;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    
+    font-size:60px;font-weight:300;
+}
+
+.Error-input{
+    padding:10px;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 2px;
+    
+    font-weight:300;
+}
+.Error-btn{
+    padding:10px;
+    border:0px;
+    border-radius: 2px;
+    font-size: 20px;
+    color:black;
+    background: white;
+    box-shadow: 0 0 5px white;
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
+.Error-btn:active{
+transform: scale(0.9);
+}

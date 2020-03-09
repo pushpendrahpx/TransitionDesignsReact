@@ -28,17 +28,32 @@
 
 }
 .Navbar-item{
-    padding:5px;
     cursor: pointer;
-    transform: scale(1.1);
     border-radius: 30px;
     user-select: none;
     transition-duration:0.2s;
+    padding:10px;
+    color:white;
+    text-decoration: none;
 }
 .Navbar-item:hover{
-    color:#22c722;
+    background: linear-gradient(90deg,orange,red);
+    box-shadow: 0 0 5px white;
+    color:black;
+
 }
 .Navbar-item:active{
     
-    transform: scale(0.95);
+    transform: scale(0.9);
+}
+
+.Main-Navbar-Inside-Content{
+    position: absolute;
+    z-index: 2;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    
+    background: linear-gradient(45deg,violet,blue);
 }
